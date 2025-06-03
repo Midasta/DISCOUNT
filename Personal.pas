@@ -98,7 +98,7 @@ uses Bonus, Datamodule, MainUnit, NIPT, Patients, BunusUpload, Corporation,
   CorpUpload, NIPTUpload;
 
 procedure TForm3.Button10Click(Sender: TObject);
-Var Excel, FData: Variant;                //
+Var Excel, FData: Variant; // Excel automation object and data array for export
     i,j:integer;
 begin
 DataModule2.ADOQuery4.Active:=False;
