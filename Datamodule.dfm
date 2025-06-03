@@ -175,9 +175,7 @@
   end
   object SaveDialog3: TSaveDialog
     Filter = 'Excel|*.xlsx'
-    InitialDir = 
-      '\\192.168.0.149\'#351#601'fa mdm\2.QEYRI-R'#399'SM'#304' S'#399'N'#399'DL'#399'R\3.D'#304'SKONT '#350#214'B'#399'S'#304 +
-      '\3.G'#220'Z'#399#350'T KARTLARI\3.MED.PERSONAL KART'#304
+    InitialDir = ''
     Left = 941
     Top = 17
   end

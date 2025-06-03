@@ -92,7 +92,7 @@ procedure TForm2.Button1Click(Sender: TObject);
 var
 butsel: integer;
 begin
-filename:='\\192.168.0.149\şəfa mdm\2.QEYRI-RƏSMİ SƏNƏDLƏR\3.DİSKONT ŞÖBƏSİ\3.GÜZƏŞT KARTLARI\5.PASİYENT GÜZƏŞT KARTI\';
+filename := GetBasePath + '5.PASİYENT GÜZƏŞT KARTI\';
 DataModule2.SaveDialog1.FileName:=edit2.Text+' '+edit3.Text;
 CreateDir(filename+'\'+DataModule2.SaveDialog1.FileName);
 DataModule2.SaveDialog1.InitialDir := ExtractFilePath(filename+DataModule2.SaveDialog1.FileName+'\');
@@ -296,7 +296,7 @@ procedure TForm2.Button6Click(Sender: TObject);
 var
 butsel : integer;
 begin
-filename:='\\192.168.0.149\şəfa mdm\2.QEYRI-RƏSMİ SƏNƏDLƏR\3.DİSKONT ŞÖBƏSİ\3.GÜZƏŞT KARTLARI\5.PASİYENT GÜZƏŞT KARTI\';
+filename := GetBasePath + '5.PASİYENT GÜZƏŞT KARTI\';
 DataModule2.SaveDialog1.FileName:=edit2.Text+' '+edit3.Text;
 CreateDir(filename+'\'+DataModule2.SaveDialog1.FileName);
 DataModule2.SaveDialog1.InitialDir := ExtractFilePath(filename+DataModule2.SaveDialog1.FileName+'\');

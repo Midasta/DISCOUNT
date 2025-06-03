@@ -288,6 +288,7 @@ Excel.Selection.Borders.LineStyle := 1;
 Excel.Selection.Borders.Weight := 2;
 Excel.Columns.AutoFit;
 DataModule2.SaveDialog3.FileName:='';
+DataModule2.SaveDialog3.InitialDir := GetBasePath + '3.MED.PERSONAL KARTİ\';
 DataModule2.SaveDialog3.FileName:='Korporativ güzəşt kartları '+datetostr(date())+ '.xlsx';
 if DataModule2.SaveDialog3.Execute() then
 begin
