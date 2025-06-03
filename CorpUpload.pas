@@ -31,7 +31,7 @@ implementation
 
 {$R *.dfm}
 
-uses Bonus, BunusUpload, Corporation, Datamodule, MainUnit, NIPT, Patients,
+uses Bonus, BonusUpload, Corporation, Datamodule, MainUnit, NIPT, Patients,
   Personal, NIPTUpload;
 
 procedure TForm8.FormClose(Sender: TObject; var Action: TCloseAction);

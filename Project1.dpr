@@ -8,7 +8,7 @@ uses
   Personal in 'Personal.pas' {Form3},
   Bonus in 'Bonus.pas' {Form4},
   NIPT in 'NIPT.pas' {Form5},
-  BunusUpload in 'BunusUpload.pas' {Form6},
+  BonusUpload in 'BonusUpload.pas' {Form6},
   Corporation in 'Corporation.pas' {Form7},
   CorpUpload in 'CorpUpload.pas' {Form8},
   NIPTUpload in 'NIPTUpload.pas' {Form9};

@@ -118,7 +118,7 @@ implementation
 
 {$R *.dfm}
 
-uses Datamodule, MainUnit, NIPT, Patients, Personal, BunusUpload, Corporation,
+uses Datamodule, MainUnit, NIPT, Patients, Personal, BonusUpload, Corporation,
   CorpUpload, NIPTUpload;
 
 procedure TForm4.Button1Click(Sender: TObject);

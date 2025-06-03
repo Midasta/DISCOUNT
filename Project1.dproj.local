@@ -21,7 +21,7 @@
     <Transaction>1899.12.30 00:00:00.000.334,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit3.dfm=\\RUSTAMPC\Users\admin\Desktop\Discount\Personal.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.267,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit7.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\Corporation.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.225,=\\RUSTAMPC\Users\admin\Desktop\Discount\Unit3.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.031,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit6.dfm=\\RUSTAMPC\Users\admin\Desktop\Discount\BunusUpload.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit6.dfm=\\RUSTAMPC\Users\admin\Desktop\Discount\BonusUpload.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.228,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit1.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\MainUnit.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.129,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit1.pas=C:\Users\Rustam\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.219,=\\RUSTAMPC\Users\admin\Desktop\Discount\Unit7.pas</Transaction>
@@ -32,7 +32,7 @@
     <Transaction>1899.12.30 00:00:00.000.535,=\\RUSTAMPC\Users\admin\Desktop\Discount\Unit2.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.647,\\RUSTAMPC\Users\admin\Desktop\Discount\NIPTUpload.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\Unit9.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.334,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit3.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\Personal.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.031,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit6.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\BunusUpload.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,\\RUSTAMPC\Users\admin\Desktop\Discount\Unit6.pas=\\RUSTAMPC\Users\admin\Desktop\Discount\BonusUpload.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.313,=\\RUSTAMPC\Users\admin\Desktop\Discount\Unit6.pas</Transaction>
   </Transactions>
 </BorlandProject>

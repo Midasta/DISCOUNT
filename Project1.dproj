@@ -116,7 +116,7 @@
             <Form>Form5</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="BunusUpload.pas">
+        <DCCReference Include="BonusUpload.pas">
             <Form>Form6</Form>
             <FormType>dfm</FormType>
         </DCCReference>

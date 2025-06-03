@@ -213,7 +213,7 @@ implementation
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
-uses MainUnit, Bonus, NIPT, Patients, Personal, BunusUpload, Corporation,
+uses MainUnit, Bonus, NIPT, Patients, Personal, BonusUpload, Corporation,
   CorpUpload, NIPTUpload;
 
 {$R *.dfm}
