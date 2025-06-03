@@ -50,6 +50,8 @@ var
   butsel: integer;
   cfgFile: TIniFile;
 
+function GetBasePath: string;
+
 implementation
 
 {$R *.dfm}
@@ -60,6 +62,20 @@ uses Bonus, Datamodule, NIPT, Patients, Personal, BunusUpload, Corporation,
 const
 msoSendBehindText=3;
 msoTextOrientationHorizontal=1;
+
+function GetBasePath: string;
+const
+  DEFAULT_BASE_PATH = '\\192.168.0.149\şəfa mdm\2.QEYRI-RƏSMİ SƏNƏDLƏR\3.DİSKONT ŞÖBƏSİ\3.GÜZƏŞT KARTLARI\';
+begin
+  cfgFile := TIniFile.Create(ExtractFilePath(ParamStr(0)) + 'config.dat');
+  try
+    Result := cfgFile.ReadString('general', 'BasePath', DEFAULT_BASE_PATH);
+  finally
+    cfgFile.Free;
+  end;
+  if Result = '' then
+    Result := DEFAULT_BASE_PATH;
+end;
 
 procedure TForm1.Bonuskart1Click(Sender: TObject);
 begin

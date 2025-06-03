@@ -133,6 +133,7 @@ Excel.Selection.Borders.LineStyle := 1;
 Excel.Selection.Borders.Weight := 2;
 Excel.Columns.AutoFit;
 DataModule2.SaveDialog3.FileName:='';
+DataModule2.SaveDialog3.InitialDir := GetBasePath + '3.MED.PERSONAL KARTİ\';
 DataModule2.SaveDialog3.FileName:='Personal güzəşt kartları '+datetostr(date())+ '.xlsx';
 if DataModule2.SaveDialog3.Execute() then
 begin
@@ -276,7 +277,7 @@ DataModule2.ADOQuery6DOB.Value:=strtodate(MaskEdit16.EditText);
 DataModule2.ADOQuery6.Next;
 end;
 DataModule2.ADOQuery6.Next;
-filename:='\\192.168.0.149\şəfa mdm\2.QEYRI-RƏSMİ SƏNƏDLƏR\3.DİSKONT ŞÖBƏSİ\3.GÜZƏŞT KARTLARI\3.MED.PERSONAL KARTİ\';
+filename := GetBasePath + '3.MED.PERSONAL KARTİ\';
 if Length(edit10.Text)=2 then
 begin
 DataModule2.SaveDialog2.FileName:='0'+edit10.Text+'. '+edit11.Text+' '+DBLookupComboBox2.Text;
@@ -500,7 +501,7 @@ end;
 
 procedure TForm3.Button9Click(Sender: TObject);
 begin
-filename:='\\192.168.0.149\şəfa mdm\2.QEYRI-RƏSMİ SƏNƏDLƏR\3.DİSKONT ŞÖBƏSİ\3.GÜZƏŞT KARTLARI\3.MED.PERSONAL KARTİ\';
+filename := GetBasePath + '3.MED.PERSONAL KARTİ\';
 if Length(edit10.Text)=2 then
 begin
 DataModule2.SaveDialog2.FileName:='0'+edit10.Text+' '+edit11.Text+' '+DBLookupComboBox2.Text;
