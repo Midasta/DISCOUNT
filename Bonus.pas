@@ -143,7 +143,7 @@ end;
 
 if edit1.Text>'' then
 begin
- sSQL := sSQL+ ' and  SAA like '''+edit33.Text+'''';
+  sSQL := sSQL+ ' and  SAA like '''+edit1.Text+'''';
 end;
 
 if DBLookupComboBox1.Text>'' then
