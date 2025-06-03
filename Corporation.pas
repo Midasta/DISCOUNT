@@ -77,7 +77,7 @@ implementation
 
 {$R *.dfm}
 
-uses Bonus, BunusUpload, Datamodule, MainUnit, NIPT, Patients, Personal,
+uses Bonus, BonusUpload, Datamodule, MainUnit, NIPT, Patients, Personal,
   CorpUpload, NIPTUpload;
 
 procedure TForm7.Button20Click(Sender: TObject);

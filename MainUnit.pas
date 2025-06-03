@@ -54,7 +54,7 @@ implementation
 
 {$R *.dfm}
 
-uses Bonus, Datamodule, NIPT, Patients, Personal, BunusUpload, Corporation,
+uses Bonus, Datamodule, NIPT, Patients, Personal, BonusUpload, Corporation,
   CorpUpload, NIPTUpload;
 
 const

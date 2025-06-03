@@ -59,7 +59,7 @@ implementation
 
 {$R *.dfm}
 
-uses Bonus, Datamodule, MainUnit, Patients, Personal, BunusUpload, Corporation,
+uses Bonus, Datamodule, MainUnit, Patients, Personal, BonusUpload, Corporation,
   CorpUpload, NIPTUpload;
 
 procedure TForm5.Button1Click(Sender: TObject);
